@@ -10,7 +10,7 @@ Linux/Unix terminal mein file ka content read karne ke kai tareeqe hain, jo file
 
 Agar file bohot bari ho jaise agar file mein **1000 lines** ka text ho to `cat` command se pura content ek saath screen par aa jayega, jise parhna mushkil ho jata hai kyunke content scroll ho kar upar chala jata hai aur shuru ka hissa nazar nahi aata.
 
-### `less` Command
+### `less` Command 
 
 **`less`** command file ko **"book" ki tarah page by page** show karti hai, jisse badi files ko aasani se parha ja sakta hai. `less` ke andar kuch useful shortcuts hain:
 

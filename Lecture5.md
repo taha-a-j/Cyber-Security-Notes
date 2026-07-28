@@ -11,7 +11,7 @@
 
 Jab ek normal user ko root level ki access chahiye hoti hai, to wo apni request **"sudo"** command ke through bhejta hai. Yani normal user "sudo" command use kar ke temporarily root-level permissions le leta hai kisi specific command ko run karne ke liye.
 
-### Commands (Root/User Level)
+### Commands (Root/User Level) 
 
 `sudo`: Agar aap **root login nahi hain** (yani normal user hain) aur koi command root/administrator permissions ke saath run karna chahte hain, to command se pehle `sudo` likhte hain. Jaise: `sudo apt update`.
 

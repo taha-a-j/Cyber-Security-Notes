@@ -11,7 +11,7 @@ Isi wajah se hum `-i` flag use karte hain, taake case ka farq na ho:
 ```
 grep -i "Linux" notes.txt
 ```
-Ab ye "Linux", "linux", "LINUX" — sab ko match kar dega.
+Ab ye "Linux", "linux", "LINUX" — sab ko match kar dega. 
 
 ## Special Characters (Regex) grep
 

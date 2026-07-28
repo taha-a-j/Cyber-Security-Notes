@@ -15,7 +15,7 @@
 - CPU: Sab parts ke beech "middle man", processing karta hai
 - OS (Windows/Linux): Sab kuch manage karta hai
 
-## 3. User OS se kese baat karta hai 
+## 3. User OS se kese baat karta hai  
 
 Communication through os can be done in two ways:
 

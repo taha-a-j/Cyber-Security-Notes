@@ -6,7 +6,7 @@
 
 - Har task jo computer par execute hota hai, wo actually **Kernel ke through** hi hota hai.
 - Bohot saari operating systems **kernel ke upar** banti hain jaise **Windows, macOS, Ubuntu, Kali Linux** etc. Ye sab andar se kernel ke functions use karti hain, lekin apna alag user interface aur features provide karti hain.  
-
+ 
 ## 2. Kernel kya hai?
 
 **Kernel** OS ka **core part** hota hai jo directly hardware se communicate karta hai. Ye OS se requests leta hai aur decide karta hai ke computer ke resources (CPU, RAM, ROM) ko kaise use karna hai task complete karne ke liye.

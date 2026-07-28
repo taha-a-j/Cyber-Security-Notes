@@ -4,7 +4,7 @@
 
 Linux/Unix mein **`file`** command use hoti hai ye pata karne ke liye ke koi file **asal mein kis type ki hai** yani uska real format kya hai, chahe uski extension kuch bhi likhi ho. Ye command file ke andar maujood content ko analyze kar ke uski **exact type, encoding aur details** batati hai.
 
-**Basic syntax:**
+**Basic syntax:** 
 
 `file filename`
 

@@ -8,7 +8,7 @@ OS = Operating System. Computer sirf **binary language** (0 aur 1) samajhta hai.
 
 Simple words mein: **OS = hardware aur user/software ke beech ka pul (bridge).** Bina OS ke, koi bhi application chalna mushkil hai actually bina OS ke computer bilkul use hi nahi ho sakta, ku ki hardware ko control karne wala koi nahi hoga.
   
-**OS (Basic functions):**
+**OS (Basic functions):** 
 - Hardware ko manage karna (CPU, RAM, disk, printer waghera)
 - Files aur folders ko organize karna
 - Multiple programs ko ek sath chalana (Multitasking)

@@ -6,7 +6,7 @@
 
 - **RAM** : Volatile hoti hai — matlab power off hone par is ka data delete ho jata hai.
 - **SSD** : Non-volatile hoti hai — matlab power off hone k baad bhi is ka data safe rehta hai.
-
+ 
 ### CPU, RAM aur SSD ka relation
 
 - CPU zyada kaam **RAM** k sath karwata hai (RAM se data lekar process karta hai).

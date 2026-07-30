@@ -1,10 +1,6 @@
 # chmod Symbolic Mode, chown aur chgrp
 
-## chmod: Change Mode
-## chown: Change Owner
-## chgrp: Chnage Group
-
-`chmod` command file ya folder ki permissions **change** ki jti h **symbolic mode** way mein. 
+`chmod` (change mode) command file ya folder ki permissions **change** ki jti h **symbolic mode** way mein. 
 
 ## chmod Symbolic Notation
 
@@ -169,7 +165,7 @@ Result mein permissions kuch is tarah show hongi jahan owner ke liye read permis
 
 ----
 
-## chown Command — Owner Change Karna
+## chown Command — (Change Owner)
 
 `chown` command kisi file ya folder ka **owner change** karne ke liye use hoti hai.
 
@@ -189,7 +185,7 @@ Ye command notes.txt file ka owner **root** set kar deti hai aur us ka group **D
 
 ---
 
-## chgrp Command — Group Change Karna
+## chgrp Command — (Change Group)
 
 `chgrp` command sirf kisi file ya folder ka **group** change karne ke liye use hoti hai (owner change nahi hota, sirf group).
 

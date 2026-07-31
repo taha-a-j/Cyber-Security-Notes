@@ -114,6 +114,18 @@ top
 - `ps aux` → sirf ek waqt ka snapshot (static)
 - `top` → live, continuously update hone wala view
 
+## top Command Ke Interactive Keys
+
+- `k` — Process kill karna (PID maang kar)
+- `M` — Memory ke hisab se sort
+- `P` — CPU ke hisab se sort (default)
+- `i` — Idle processes hide/show (toggle)
+- `H` — Threads alag se show
+- `q` — top se exit
+- `r` — Priority change (renice)
+- `space` — Screen refresh
+- `1` — Har CPU core ki usage show/hide
+
 ---
 
 ## kill Command

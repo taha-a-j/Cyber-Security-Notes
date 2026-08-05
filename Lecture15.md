@@ -63,6 +63,7 @@ SSH ko Linux Terminal, Windows Command Prompt, ya PowerShell se run kiya ja sakt
 
 ## 5. Operating Systems Support
 
-**Linux:** Linux mein SSH by default built-in Terminal ke zariye fully supported hota hai.
+**Linux:** Linux mein SSH by default built-in Terminal ke zariye fully supported hota hai. 
+
 **Windows:** Windows mein Terminal, Command Prompt, PowerShell, ya third-party SSH clients (jaise PuTTY / MobaXterm) ke zariye use kiya ja sakta hai.
 

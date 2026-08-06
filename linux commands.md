@@ -1,4 +1,4 @@
-# Linux Commands Cheat Sheet
+# Linux Commands
 
 ## 1. Navigation Commands
 ```

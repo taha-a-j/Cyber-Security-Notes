@@ -139,7 +139,6 @@ ssh username@hostname        → remote device se connect karna
 
 ## 13. Tar & Zip
 
-### Tar & Zip Concept
 ```
 Tar aur Zip dono multiple files/folders ko collect karte hain
 

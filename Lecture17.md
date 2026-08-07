@@ -1,10 +1,10 @@
-# Disk Space, System Information Aur Logs
+# Disk Space, System Information & Logs
 
 ## Checking disk space
 
 Jab bhi hum koi file **save** karte hain, to wo file **store** ho kar hamare storage device — jaise **HDD (Hard Disk Drive)**, **SSD (Solid State Drive)**, waghera — mein rakhi jati hai.
 
-### df Command — Disk Space
+### df Command 
 
 `df` command us **disk space** ko check karne ke liye use hoti hai — matlab ye batati hai ke disk mein kitni jagah use ho chuki hai aur kitni baaki hai.
 

@@ -281,7 +281,7 @@ Jab koi program ya service **internet/network** ke through kaam karti hai, to wo
 
 **Process Monitoring Commands:**
 - `ps aux` → ek waqt ka snapshot dikhata hai
-- `top` → live/real-time processes dikhata hai
+- `top` → live/real-time processes dikhata hai 
 
 **Process Kill Commands:**
 - `kill <PID>` → PID se process band karta hai

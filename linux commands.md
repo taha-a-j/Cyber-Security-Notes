@@ -1,7 +1,8 @@
 # Linux Commands
 
 ## 1. Navigation Commands
-``` 
+
+```
 pwd                   → current directory dikhata hai
 ls                    → files/folders list karta hai
 tree                  → Directory structure visually dikhata hai
@@ -15,6 +16,7 @@ cd /                  → root directory mein jana
 ```
 
 ## 2. File & Folder Management
+
 ```
 touch filename         → nayi khaali file banana
 mkdir foldername       → naya folder banana
@@ -27,7 +29,10 @@ clear                  → terminal screen saaf karna
 date                   → current date/time dikhana
 ```
 
+
+
 ## 3. File Content Dekhna
+
 ```
 cat filename            → poora content ek saath dikhana
 less filename           → file page-by-page dikhana
@@ -40,7 +45,10 @@ file filename           → file ki asal type pata karna
 nano filename           → file edit karne ke liye kholna
 ```
 
+
+
 ## 4. Output/Redirection
+
 ```
 echo "text"                      → terminal par text print karna
 echo "text" > filename           → file mein likhna (overwrite)
@@ -48,14 +56,23 @@ echo "text" >> filename          → file mein add karna (append)
 printf "a\nb\nc\n" > filename    → multi-line test file banana
 ```
 
+
+
 ## 5. Wildcards ke Sath
+
 ```
 ls *.pdf                → sab .pdf files dikhana
 ls ?.txt                → single-character naam wali files
-ls file[1-3].txt        → range wale naam match karna
+ls file[1-3].txt        → range wale naam match karna 
+ `?.txt` → sirf 1-character wali file (e.g. `a.txt`)
+ `??.txt` → sirf 2-character wali file (e.g. `ab.txt`)
+ `???.txt` → 3-character wali file (e.g. `one.txt`, `two.txt`)
 ```
 
+
+
 ## 6. Search Karna (grep)
+
 ```
 grep "word" filename              → file mein word dhoondna
 grep -i "word" filename           → case-insensitive search
@@ -66,7 +83,10 @@ grep -c "word" filename           → matching lines ki ginti
 grep "word$" filename             → sirf line ke end mein word ho to match
 ```
 
+
+
 ## 7. Files Dhoondna (find)
+
 ```
 find . -name "*.txt"                 → naam se file dhoondna
 find . -type f -name "pattern"       → sirf files dhoondna
@@ -77,7 +97,10 @@ find . -mtime -1                     → pichle 24 ghante mein modify hui files
 find . -mtime -7                     → pichle 7 din mein modify hui files
 ```
 
+
+
 ## 8. Permissions (chmod, chown, chgrp)
+
 ```
 chmod 500 filename                 → numeric permission set karna
 chmod u+x filename                 → owner ko execute permission dena
@@ -89,7 +112,10 @@ sudo chgrp group filename          → sirf group change karna
 sudo chown $USER filename          → current user ko owner banana
 ```
 
+
+
 ## 9. Process Management
+
 ```
 ps aux                       → sab processes ka snapshot
 ps aux | grep name           → naam se process dhoondna
@@ -100,7 +126,10 @@ pkill "name"                 → naam se process band karna
 kill all "name"              → parent + child sab band karna
 ```
 
+
+
 ## 10. Services (systemctl)
+
 ```
 systemctl status ssh             → service ka status dekhna
 systemctl enable ssh             → boot par auto-start karna
@@ -109,7 +138,10 @@ sudo systemctl restart ssh       → service restart karna
 sudo systemctl disable ssh       → auto-start band karna
 ```
 
+
+
 ## 11. Package Management (apt/dpkg)
+
 ```
 sudo apt update                      → package list update check karna
 sudo apt upgrade                     → naye versions install karna
@@ -126,7 +158,10 @@ which nmap                           → command ki exact location
 whereis nmap                         → binary+source+manual location
 ```
 
+
+
 ## 12. Networking Commands
+
 ```
 ip address                   → device ka IP dikhana
 hostname -i                  → IP, router IP, MAC address dikhana
@@ -137,6 +172,8 @@ curl -i https://google.com   → headers ke sath data fetch karna
 ssh username@hostname        → remote device se connect karna
 ```
 
+
+
 ## 13. Tar & Zip
 
 ```
@@ -146,7 +183,10 @@ Tar    → sirf collect karta hai (jaise bag mein cheezein daalna)
 Zip    → collect karne ke sath size bhi compress karta hai
 ```
 
+
+
 ### Tar Flags
+
 ```
 -c    → create
 -t    → table/list
@@ -156,7 +196,10 @@ Zip    → collect karne ke sath size bhi compress karta hai
 -z    → gzip compress
 ```
 
+
+
 ### Tar Commands
+
 ```
 tar -cf project.tar project     → tar file banana
 tar -tf project.tar             → list dekhna
@@ -164,27 +207,40 @@ tar -xf project.tar             → extract karna
 tar -cvf / tar -xvf             → verbose ke sath create/extract
 ```
 
+
+
 ### Tar vs Zip
+
 ```
 Tar    → Linux mein zyada use hota hai, sirf collect karta hai
 Zip    → Windows mein zyada use hota hai, size bhi compress karta hai
 ```
 
+
+
 ### Zip Commands
+
 ```
 zip -r project.zip project           → zip file banana
 unzip -l project.zip project         → list dekhna
 ```
 
+
+
 ### Combined Tar+Zip Commands
+
 ```
 tar -czf project.tar.gz project     → create + compress
 tar -xzvf project.tar.gz            → extract + verbose + compress format
 ```
 
+
+
 ### Backup Ka Practical Use
+
 ```
 mkdir backup                             → naya folder banana
 tar -xvzf project.tar.gz -C backup       → specific folder mein extract karna
 -C                                       → destination folder specify karta hai
 ```
+

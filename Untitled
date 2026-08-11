@@ -1,0 +1,16 @@
+cd ~/CS_MD_FILES/Cyber-Security-Notes
+
+# Rename
+git mv Lectures-01-17 Linux-Security-Basics
+
+# Networking folder + Lecture18 move
+mkdir -p Networking
+git mv Lecture18.md Networking/
+
+# Check
+git status
+
+# Commit + push
+git add -A
+git commit -m "comment"
+git push origin main

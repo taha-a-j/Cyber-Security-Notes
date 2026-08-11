@@ -243,4 +243,25 @@ mkdir backup                             → naya folder banana
 tar -xvzf project.tar.gz -C backup       → specific folder mein extract karna
 -C                                       → destination folder specify karta hai
 ```
+## 14. Disk Space & System Information
+ 
+```
+df                      → disk space check karna
+df -h                   → disk space human-readable format mein
+du -sh foldername       → folder ka size check karna (human-readable)
+free -h                 → free RAM check karna (human-readable)
+uptime                  → system kitni der se ON hai
+uname -a                → OS info, user info, kernel version, OS version
+lscpu                   → CPU architecture check karna
+lsblk                   → connected disks aur unke partitions dikhana
+```
+ 
+## 15. Logs
+ 
+```
+/var/log                → sari system logs ka location
+journalctl               → saari logs dekhna
+journalctl -f             → live/real-time logs dekhna
+journalctl -u ssh         → specific service (jaise ssh) ki logs dekhna
+```
 

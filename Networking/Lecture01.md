@@ -21,7 +21,9 @@ Public network wo hota hai jab ek device internet ke through kisi doosre server 
 Simple Rule:
 
 Agar beech mein koi company ka server/cloud involve ho (WhatsApp, Instagram, Google, koi bhi website) → Public network
+
 Agar data seedha ek device se doosre device tak jaye, koi server na ho (Bluetooth, AirDrop, direct WiFi-to-printer, LAN cable se do PC connect karna) → Private network
+
 ---
 
 # MAC Address

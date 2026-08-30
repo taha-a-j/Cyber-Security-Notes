@@ -18,6 +18,10 @@ Public network wo hota hai jab ek device internet ke through kisi doosre server 
 - Private network sirf ek local router ke andar limited hota hai, jismein sirf wahi devices include hoti hain jo us router se connect hain.
 - Public network internet ke through duniya bhar ki services aur servers se connect hone ki facility deta hai.
 
+Simple Rule:
+
+Agar beech mein koi company ka server/cloud involve ho (WhatsApp, Instagram, Google, koi bhi website) → Public network
+Agar data seedha ek device se doosre device tak jaye, koi server na ho (Bluetooth, AirDrop, direct WiFi-to-printer, LAN cable se do PC connect karna) → Private network
 ---
 
 # MAC Address

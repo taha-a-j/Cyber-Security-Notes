@@ -4,7 +4,7 @@
 
 Cyber Security ka matlab hai apne systems, servers aur data ko unauthorized access, damage ya attack se bachana.
 
-**Risk:**
+**Risk:** 
 
 Risk ka matlab hai kisi loss ya damage hone ki possibility. Har system ka apna level of risk hota hai jo fix nahi kiya ja sakta, sirf kam kiya ja sakta hai. Jaise agar aap ek website bana rahe hain, to us website ke hack hone ka hamesha ek risk maujood rahega. Vulnerability ko fix karna hi actual risk management hai matlab jitni zyada vulnerabilities fix hongi, utna risk kam hoga.
 

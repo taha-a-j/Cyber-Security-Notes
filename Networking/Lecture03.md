@@ -7,7 +7,7 @@
 **IP Address Basic Working:**
 IP address wo hoti hai jo **network** ke andar device ko access karne ke liye use hoti hai.
 
-**Router Role:**
+**Router Role:** 
 Jab bhi koi device network se connect hoti hai, to **router** us device ko ek IP address deta hai.
 
 ---

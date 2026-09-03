@@ -6,7 +6,7 @@
 
 **Subnetting Purpose:**
 
- Subnetting is liye ki jati hai taake network ko behtar tareeqe se organize kiya ja sake aur resources (jaise IP addresses) ko waste hone se bachaya ja sake.
+ Subnetting is liye ki jati hai taake network ko behtar tareeqe se organize kiya ja sake aur resources (jaise IP addresses) ko waste hone se bachaya ja sake. 
 
 ---
 

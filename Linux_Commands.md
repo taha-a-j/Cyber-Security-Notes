@@ -11,7 +11,7 @@ ls -l                 → detailed listing (permissions ke sath)
 ls -R                 → sub-folders sameet poori list
 cd foldername         → us folder mein jana
 cd ..                 → ek folder peeche jana
-cd                    → home directory mein jana
+cd                    → home directory mein jana 
 cd /                  → root directory mein jana
 ```
 

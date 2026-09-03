@@ -9,7 +9,7 @@ Cybersecurity ke basics **principles** ko **CIA** ke naam se jana jata hai. CIA 
 3. **Availability**
 
 ---
-
+ 
 ## 1. Confidentiality
 
 **Confidentiality** ka matlab hai **identity**  ye ensure karta hai ke sirf sahi authorized banda hi kisi data tak pohanch sake.

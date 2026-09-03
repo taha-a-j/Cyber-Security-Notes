@@ -14,7 +14,7 @@ Jab 2 devices ko connect karna ho, to data Wi-Fi router ke through jata hai. Rou
 
 **Switch vs Hub:**
 
-- Hub: Hub data ko sab connected devices ko bhej deta hai (broadcast karta hai), chahe wo data kisi ek device ke liye ho.
+- Hub: Hub data ko sab connected devices ko bhej deta hai (broadcast karta hai), chahe wo data kisi ek device ke liye ho. 
 - Switch: Switch smart hota hai, ye sirf us specific device ko data bhejta hai jiske liye wo data hota hai, na ke sab ko.
 
 Network private bhi ho sakta hai ya public bhi.

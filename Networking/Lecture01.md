@@ -2,7 +2,7 @@
 
 Network devices se milkar banta hai. Jab phone, laptop, computer aur doosre devices aapas mein connect hotay hain, to wo mil kar ek network banate hain. Ye sab devices ek router ke sath connect hotay hain, aur router hi in sab ke darmiyan communication ko possible banata hai.
 
----
+--- 
 
 # Private Network
 
